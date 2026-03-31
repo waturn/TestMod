@@ -1,4 +1,6 @@
 {
   "item.testmod.tanzanite": "Tanzanite",
-  "item.testmod.wa": "Wa"
+  "item.testmod.wa": "Wa",
+
+  "block.testmod.tanzanite_block": "Block of Tanzanite"
 }
