@@ -1,11 +1,19 @@
 {
   "item.testmod.tanzanite": "Tanzanite",
   "item.testmod.raw_tanzanite": "Raw Tanzanite",
+
+  "block.testmod.wa_block": "Block of Wa",
+  "block.testmod.raw_wa_block": "Block of Raw Wa",
   "item.testmod.wa": "Wa",
+  "item.testmod.raw_wa": "Raw Wa",
 
   "block.testmod.tanzanite_block": "Block of Tanzanite",
+  "block.testmod.raw_tanzanite_block": "Block of Raw Tanzanite",
+
   "block.testmod.tanzanite_ore": "Tanzanite Ore",
-  "block.testmod.wa_block": "Block of Wa",
+  "block.testmod.wa_ore": "Wa Ore",
+  "block.testmod.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+  "block.testmod.deepslate_wa_ore": "Deepslate Wa Ore",
 
   "itemgroup.testmod.mod_items": "Mod Items",
   "itemgroup.testmod.mod_blocks": "Mod Blocks"

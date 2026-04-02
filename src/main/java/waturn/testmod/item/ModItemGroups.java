@@ -19,6 +19,7 @@ public class ModItemGroups {
                         entries.add(ModItems.TANZANITE);
                         entries.add(ModItems.RAW_TANZANITE);
                         entries.add(ModItems.WA);
+                        entries.add(ModItems.RAW_WA);
                     }).build());
 
     public static final ItemGroup MOD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -26,9 +27,16 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.TANZANITE_ORE))
                     .displayName(Text.translatable("itemgroup.testmod.mod_blocks"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.TANZANITE_BLOCK);
                         entries.add(ModBlocks.TANZANITE_ORE);
+                        entries.add(ModBlocks.WA_ORE);
+                        entries.add(ModBlocks.TANZANITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.WA_DEEPSLATE_ORE);
+
+                        entries.add(ModBlocks.TANZANITE_BLOCK);
                         entries.add(ModBlocks.WA_BLOCK);
+
+                        entries.add(ModBlocks.RAW_TANZANITE_BLOCK);
+                        entries.add(ModBlocks.RAW_WA_BLOCK);
                     }).build());
 
 

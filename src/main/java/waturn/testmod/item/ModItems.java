@@ -13,6 +13,7 @@ public class ModItems {
     public static final Item TANZANITE = registerItem("tanzanite", new Item(new Item.Settings()));
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite", new Item(new Item.Settings()));
     public static final Item WA = registerItem("wa", new Item(new Item.Settings()));
+    public static final Item RAW_WA = registerItem("raw_wa", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TestMod.MOD_ID, name), item);
@@ -23,8 +24,9 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
            entries.add(TANZANITE);
-            entries.add(RAW_TANZANITE);
+           entries.add(RAW_TANZANITE);
            entries.add(WA);
+           entries.add(RAW_WA);
         });
     }
 }

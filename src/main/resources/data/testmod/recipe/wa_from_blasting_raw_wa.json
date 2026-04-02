@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.3,
+  "group": "wa",
+  "ingredient": {
+    "item": "testmod:raw_wa"
+  },
+  "result": {
+    "id": "testmod:wa"
+  }
+}
