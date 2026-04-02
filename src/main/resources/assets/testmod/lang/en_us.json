@@ -1,6 +1,12 @@
 {
   "item.testmod.tanzanite": "Tanzanite",
+  "item.testmod.raw_tanzanite": "Raw Tanzanite",
   "item.testmod.wa": "Wa",
 
-  "block.testmod.tanzanite_block": "Block of Tanzanite"
+  "block.testmod.tanzanite_block": "Block of Tanzanite",
+  "block.testmod.tanzanite_ore": "Tanzanite Ore",
+  "block.testmod.wa_block": "Block of Wa",
+
+  "itemgroup.testmod.mod_items": "Mod Items",
+  "itemgroup.testmod.mod_blocks": "Mod Blocks"
 }

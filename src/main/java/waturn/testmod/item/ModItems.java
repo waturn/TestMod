@@ -11,6 +11,7 @@ import waturn.testmod.TestMod;
 public class ModItems {
 
     public static final Item TANZANITE = registerItem("tanzanite", new Item(new Item.Settings()));
+    public static final Item RAW_TANZANITE = registerItem("raw_tanzanite", new Item(new Item.Settings()));
     public static final Item WA = registerItem("wa", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
@@ -22,6 +23,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
            entries.add(TANZANITE);
+            entries.add(RAW_TANZANITE);
            entries.add(WA);
         });
     }

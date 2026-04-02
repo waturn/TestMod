@@ -15,10 +15,16 @@ import waturn.testmod.TestMod;
 public class ModBlocks {
 
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
-            new Block(AbstractBlock.Settings.create().strength(4f)
-                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).slipperiness(1f)));
+            new Block(AbstractBlock.Settings.create().strength(3f)
+                    .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK).slipperiness(1f).hardness(5)));
 
-    
+    public static final Block TANZANITE_ORE = registerBlock("tanzanite_ore",
+            new Block(AbstractBlock.Settings.create().strength(2f)
+                    .requiresTool().sounds(BlockSoundGroup.STONE).hardness(3)));
+
+    public static final Block WA_BLOCK = registerBlock("wa_block",
+            new Block(AbstractBlock.Settings.create().strength(8f)
+                    .requiresTool().sounds(BlockSoundGroup.ANVIL).hardness(5)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -35,6 +41,8 @@ public class ModBlocks {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.TANZANITE_BLOCK);
+            entries.add(ModBlocks.TANZANITE_ORE);
+            entries.add(ModBlocks.WA_BLOCK);
         });
     }
 }
