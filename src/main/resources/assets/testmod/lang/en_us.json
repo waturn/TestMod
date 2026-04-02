@@ -2,6 +2,8 @@
   "item.testmod.tanzanite": "Tanzanite",
   "item.testmod.raw_tanzanite": "Raw Tanzanite",
 
+  "item.testmod.chisel": "Chisel",
+
   "block.testmod.wa_block": "Block of Wa",
   "block.testmod.raw_wa_block": "Block of Raw Wa",
   "item.testmod.wa": "Wa",

@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_TANZANITE);
                         entries.add(ModItems.WA);
                         entries.add(ModItems.RAW_WA);
+
+                        entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup MOD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

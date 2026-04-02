@@ -7,6 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import waturn.testmod.TestMod;
+import waturn.testmod.item.custom.ChiselItem;
 
 public class ModItems {
 
@@ -14,6 +15,8 @@ public class ModItems {
     public static final Item RAW_TANZANITE = registerItem("raw_tanzanite", new Item(new Item.Settings()));
     public static final Item WA = registerItem("wa", new Item(new Item.Settings()));
     public static final Item RAW_WA = registerItem("raw_wa", new Item(new Item.Settings()));
+
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(TestMod.MOD_ID, name), item);
